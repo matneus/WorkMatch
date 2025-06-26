@@ -2,13 +2,52 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #10102f;
+    background-color: #10102f; */
 
+}
+
+.topo{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* .logo{
+    justify-content: flex-start;
+}
+
+.pesquisas{
+    justify-content: center;
+} */
+
+.acoes{
+    display: flex;  
+}
+
+#fontes{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+main{
+    display: flex;
+    background-color: #10102f ;
+    width: 100%;
+}
+
+footer{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffff;
 }
 
 .container{
