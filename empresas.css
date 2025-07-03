@@ -2,38 +2,49 @@
 
 body {
     font-family: Arial, sans-serif;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #10102f; */
-
 }
 
 .topo{
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
     display: flex;
     justify-content: space-between;
     text-align: center;
     background-color: #fff;
+    position: fixed;
+    width: 100%;
 }
 
-/* .logo{
-    justify-content: flex-start;
+.pesquisas {
+    align-content: center;
+    position: relative;
+    width: 50%;
 }
 
-.pesquisas{
-    justify-content: center;
-} */
+#icone-busca {
+    align-content: center;
+    position: absolute;
+    top: 40%;
+    margin-left: -2rem;
+}
+
+.input-pesquisa {
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+    text-align: center;
+}
 
 .acoes{
-    display: flex;  
+    display: flex;
 }
 
 #fontes{
     font-size: 2rem;
     margin-left: 1rem;
+    align-content: center;
+
 }
 
 main{
