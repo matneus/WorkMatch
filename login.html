@@ -8,32 +8,48 @@
     <title>Login | Ludiflex</title>
 </head>
 <body>
+
+
+
+
     <div class="login-box">
-        <div class="login-header">
-            <header>Login</header>
+
+        <div class="container">
+            <div class="logo">
+              <img src="logo2.png" alt="WorkMatch Logo" />
+              <h1>WORKMATCH</h1>
+            </div>
+
+            <div class="login-header">
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+            </div>
+            <div class="forgot">
+                <section>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="textos-login">Lembrar-me</label>
+                </section>
+                <section>
+                    <a href="#" class="textos-login">Esqueci a Senha</a>
+                </section>
+            </div>
+
+            <a href="empresas.html" class="input-submit-link">
+                <div class="input-submit">
+                    <button class="submit-btn" id="submit"></button>
+                    <label for="submit" class="textos-login">Entrar</label>
+                </div>
+            </a>
+
+            <div class="sign-up-link">
+                <p class="textos-login">Você não tem uma conta? <a href="#" class="textos-login">Cadastre-se</a></p>
+            </div>
         </div>
-        <div class="input-box">
-            <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
-        </div>
-        <div class="input-box">
-            <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
-        </div>
-        <div class="forgot">
-            <section>
-                <input type="checkbox" id="check">
-                <label for="check" class="textos-login">Lembrar-me</label>
-            </section>
-            <section>
-                <a href="#" class="textos-login">Esqueci a Senha</a>
-            </section>
-        </div>
-        <div class="input-submit">
-            <button class="submit-btn" id="submit"></button>
-            <label for="submit" class="textos-login">Sign In</label>
-        </div>
-        <div class="sign-up-link">
-            <p class="textos-login">Don't have account? <a href="#" class="textos-login">Sign Up</a></p>
-        </div>
-    </div>
+          </div>
+        
 </body>
 </html>
