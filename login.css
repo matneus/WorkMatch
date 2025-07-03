@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -13,6 +14,35 @@ body{
     min-height: 100vh;
     background: #10102f;
 }
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  }
+
+  .logo img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .logo h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #ffff;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+
 .login-box{
     display: flex;
     justify-content: center;
@@ -99,11 +129,7 @@ section a{
     background: #6767b3;
     transform: scale(1.05,1);
 }
-.sign-up-link{
-    text-align: center;
-    font-size: 15px;
-    margin-top: 20px;
-}
+
 .sign-up-link a{
     color: #ffff;
     font-weight: 600;
