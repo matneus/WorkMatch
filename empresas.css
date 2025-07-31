@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: #fff;
+    background-color: #0056a4;
     position: fixed;
     width: 100%;
 }
@@ -58,7 +58,7 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #ffff;
+    background-color: #0056a4;
 }
 
 .container{
@@ -106,3 +106,11 @@ footer{
     color: #555;
 }
 
+.logo-empresa {
+    width: 20%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
